@@ -12,7 +12,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JDBC
 - Git e GitHub
 
-### Features
+## 🛠️ Features
 
 - [x] Cadastro de Cliente
 - [x] Criação de Reservas
