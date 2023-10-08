@@ -103,7 +103,7 @@ public class Reserva {
 	        String dataPartidaStr = scanner.nextLine();
 	        Date dataPartida = dateFormat.parse(dataPartidaStr);
 
-	        System.out.println("Digite a data de chegada (dd/MM/yyyy):");
+	        System.out.println("Digite a data da volta (dd/MM/yyyy):");
 	        String dataChegadaStr = scanner.nextLine();
 	        Date dataChegada = dateFormat.parse(dataChegadaStr);
 
