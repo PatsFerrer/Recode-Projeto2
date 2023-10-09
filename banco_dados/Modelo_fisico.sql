@@ -49,3 +49,4 @@ ADD COLUMN assento INT;
 ALTER TABLE cliente
 ADD CONSTRAINT email_unico UNIQUE (email);
 
+INSERT INTO cliente(nome, email, senha, telefone) VALUES ('Antonela Messi', 'anto.com', '1234', '9 7854-2578')
