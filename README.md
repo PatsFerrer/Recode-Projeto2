@@ -35,6 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     - Você só consegue verificar a passagem se o usuário fizer Login.
     - Caso o cliente não tenha passagem, ele informa que não possui.
 - Excluir Clientes
+    - Caso o Cliente tenha reservas, ele não poderá ser excluído.
 - Cancelar Reservas
 - Verificar Passagem (Cliente)
     - Após gerar passagem, o cliente logado pode visualizar.
