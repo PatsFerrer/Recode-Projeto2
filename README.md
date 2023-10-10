@@ -17,20 +17,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![Menu](image-1.png)
 
-- Cadastro de Cliente: 
+- Cadastro de Cliente
   - Cadastra um novo usuário (nome, email, senha e telefone);
-- Criação de Reservas:
+- Criação de Reservas
     - Apenas um usuário existente consegue criar uma reserva.
     - É necessário fazer Login antes.
-- Geração de Passagens:
+- Geração de Passagens
     - Só consegue gerar uma passagem, se criar uma reserva antes. 
-- Login:
+- Login
     - Pede o e-mail e senha já cadastrados.
-- Listar Clientes:
+- Listar Clientes
     - Mostra a lista de todos os clientes cadastrados.
 - Listar Reservas
     - Mostra a lista com todas as Reservas.
-- Listar Passagens:
+- Listar Passagens
     - Mostra a passagem do cliente logado.
     - Você só consegue verificar a passagem se o usuário fizer Login.
     - Caso o cliente não tenha passagem, ele informa que não possui.
