@@ -49,4 +49,15 @@ ADD COLUMN assento INT;
 ALTER TABLE cliente
 ADD CONSTRAINT email_unico UNIQUE (email);
 
-INSERT INTO cliente(nome, email, senha, telefone) VALUES ('Antonela Messi', 'anto.com', '1234', '9 7854-2578')
+INSERT INTO cliente(nome, email, senha, telefone) VALUES ('Antonela Messi', 'anto.com', '1234', '9 7854-2578');
+
+SELECT * FROM passagem WHERE id_reserva IN (SELECT id_reserva FROM reserva WHERE id_cliente = 3);
+
+SELECT p.*, r.data_partida, r.data_chegada, c.nome AS nome_cliente
+FROM passagem p
+INNER JOIN reserva r ON p.id_reserva = r.id_reserva
+INNER JOIN cliente c ON r.id_cliente = c.id_cliente;
+
+UPDATE cliente SET nome = "Lionel Andres Messi", email = "messi.barca", senha = "1030", telefone = "(55) 98795-4785" WHERE id_cliente = 4;
+
+DELETE FROM cliente WHERE id_cliente = 1;
