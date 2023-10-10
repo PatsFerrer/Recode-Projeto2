@@ -31,14 +31,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Listar Reservas
     - Mostra a lista com todas as Reservas.
 - Listar Passagens
-    - Mostra a passagem do cliente logado.
     - Você só consegue verificar a passagem se o usuário fizer Login.
     - Caso o cliente não tenha passagem, ele informa que não possui.
 - Excluir Clientes
     - Caso o Cliente tenha reservas, ele não poderá ser excluído.
 - Cancelar Reservas
 - Verificar Passagem (Cliente)
-    - Após gerar passagem, o cliente logado pode visualizar.
+    - Após logar e gerar passagem, o cliente pode visualizar.
 - Enviar Mensagem
 
 ## 🏷️ Layout
