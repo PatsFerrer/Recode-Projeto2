@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     - Apenas um usuário existente consegue criar uma reserva.
     - É necessário fazer Login antes.
 - Geração de Passagens
-    - Só consegue gerar uma passagem, se criar uma reserva antes. 
+    - Só consegue gerar uma passagem, se a reserva existir. 
 - Login
     - Pede o e-mail e senha já cadastrados.
 - Listar Clientes
