@@ -2,7 +2,7 @@
 </p>
 
 ## 🖥️ Projeto
-Esse é um projeto Back-end que criei para a Recode Pro.
+Esse é um projeto Back-end que criei para a Recode Pro. <br>
 OBS: Utilize o VS Code para melhor visualização da aplicação no terminal. 😁
 
 ## 🚀 Tecnologias
