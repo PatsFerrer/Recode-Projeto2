@@ -17,28 +17,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![Menu](image-1.png)
 
-- [x] Cadastro de Cliente: 
-        Cadastra um novo usuário (nome, email, senha e telefone);
-- [x] Criação de Reservas:
-        Apenas um usuário existente consegue criar uma reserva.
-        É necessário fazer Login antes.
-- [x] Geração de Passagens:
-        Só consegue gerar uma passagem, se criar uma reserva antes. 
-- [x] Login:
-        Pede o e-mail e senha já cadastrados.
-- [x] Listar Clientes:
-        Mostra a lista de todos os clientes cadastrados.
-- [x] Listar Reservas
-        Mostra a lista com todas as Reservas.
-- [x] Listar Passagens:
-        Mostra a passagem do cliente logado.
-        Você só consegue verificar a passagem se o usuário fizer Login.
-        Caso o cliente não tenha passagem, ele informa que não possui.
-- [x] Excluir Clientes
-- [x] Cancelar Reservas
-- [x] Verificar Passagem (Cliente)
-        Após gerar passagem, o cliente logado pode visualizar.
-- [x] Enviar Mensagem
+- Cadastro de Cliente: 
+  - Cadastra um novo usuário (nome, email, senha e telefone);
+- Criação de Reservas:
+    - Apenas um usuário existente consegue criar uma reserva.
+    - É necessário fazer Login antes.
+- Geração de Passagens:
+    - Só consegue gerar uma passagem, se criar uma reserva antes. 
+- Login:
+    - Pede o e-mail e senha já cadastrados.
+- Listar Clientes:
+    - Mostra a lista de todos os clientes cadastrados.
+- Listar Reservas
+    - Mostra a lista com todas as Reservas.
+- Listar Passagens:
+    - Mostra a passagem do cliente logado.
+    - Você só consegue verificar a passagem se o usuário fizer Login.
+    - Caso o cliente não tenha passagem, ele informa que não possui.
+- Excluir Clientes
+- Cancelar Reservas
+- Verificar Passagem (Cliente)
+    - Após gerar passagem, o cliente logado pode visualizar.
+- Enviar Mensagem
 
 ## 🏷️ Layout
 
