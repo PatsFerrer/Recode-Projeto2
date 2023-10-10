@@ -26,7 +26,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
         Só consegue gerar uma passagem, se criar uma reserva antes. 
 - [x] Login:
         Pede o e-mail e senha já cadastrados.
-        ![Img](image.png)
 - [x] Listar Clientes:
         Mostra a lista de todos os clientes cadastrados.
 - [x] Listar Reservas
