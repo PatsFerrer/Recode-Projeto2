@@ -103,8 +103,8 @@ public class Main {
 			            System.out.println("ID da Reserva: " + r.getId_reserva());
 			            System.out.println("Origem: " + r.getOrigem());
 			            System.out.println("Destino: " + r.getDestino());
-			            System.out.println("Data Partida: " + dateFormat.format(r.getData_partida()));
-			            System.out.println("Data Chegada: " + dateFormat.format(r.getData_chegada()));
+			            System.out.println("Data da Partida: " + dateFormat.format(r.getData_partida()));
+			            System.out.println("Data da Volta: " + dateFormat.format(r.getData_chegada()));
 			            System.out.println("------------------------------");
 			        }
 			    }
