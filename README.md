@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     - Apenas um usuário existente consegue criar uma reserva.
     - É necessário fazer Login antes.
 - Geração de Passagens
-    - Só consegue gerar uma passagem, se criar uma reserva antes. 
+    - Só consegue gerar uma passagem, se a reserva existir. 
 - Login
     - Pede o e-mail e senha já cadastrados.
 - Listar Clientes
@@ -31,13 +31,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Listar Reservas
     - Mostra a lista com todas as Reservas.
 - Listar Passagens
-    - Mostra a passagem do cliente logado.
-    - Você só consegue verificar a passagem se o usuário fizer Login.
-    - Caso o cliente não tenha passagem, ele informa que não possui.
+    - Mostra a lista com todas as Passagens.
 - Excluir Clientes
+    - Caso o Cliente tenha reservas, ele não poderá ser excluído.
 - Cancelar Reservas
 - Verificar Passagem (Cliente)
-    - Após gerar passagem, o cliente logado pode visualizar.
+    - Após logar e gerar passagem, o cliente pode visualizar.
+    - Caso o cliente não tenha passagem, ele informa que não possui.
 - Enviar Mensagem
 
 ## 🏷️ Layout
